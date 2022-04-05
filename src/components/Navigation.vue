@@ -1,12 +1,10 @@
 <template>
-  <div class="flex w-full bg-black overflow-x-auto">
+  <div class="flex items-center w-full bg-black overflow-x-auto">
     <a
-      href=""
       class="p-2 bg-red-500 text-white whitespace-nowrap"
       >Combos 🌟</a
     >
     <a
-      href=""
       class="p-2 text-white whitespace-nowrap"
       v-for="i in 6"
       >Combos 🌟</a

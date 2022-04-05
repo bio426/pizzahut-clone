@@ -1,11 +1,89 @@
-# Vue 3 + Typescript + Vite
+# PizzaHut Website Clone
 
-This template should help get you started developing with Vue 3 and Typescript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+A clone of the official `Pizza Hut Peru Website`, trying to imitate the main views of the website and keep the original responsive design.
 
-## Recommended IDE Setup
+## Table of contents
 
-- [VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar)
+- [PizzaHut Website Clone](#pizzahut-website-clone)
+  - [Table of contents](#table-of-contents)
+  - [Motivation](#motivation)
+  - [Technologies](#technologies)
+  - [Screenshots](#screenshots)
+  - [Installation](#installation)
+  - [References](#references)
 
-## Type Support For `.vue` Imports in TS
+## Motivation
 
-Since TypeScript cannot handle type information for `.vue` imports, they are shimmed to be a generic Vue component type by default. In most cases this is fine if you don't really care about component prop types outside of templates. However, if you wish to get actual prop types in `.vue` imports (for example to get props validation when using manual `h(...)` calls), you can enable Volar's `.vue` type support plugin by running `Volar: Switch TS Plugin on/off` from VSCode command palette.
+This project was made with the objective of practicing my skills using the Tailwind CSS framework, and discover their capabilities to make fully responsive and customizable websites. Also to experience the way of working with a utility first CSS framework.
+
+## Technologies
+
+Some of the main technologies that were used for building this project.
+
+- [Vue.js](https://vuejs.org/)
+- [Tailwind css](https://tailwindcss.com/)
+- [Vite](https://vitejs.dev/)
+
+<div style="display:flex;justify-content:center;gap:16px">
+
+  <img src="./docs/vue-ico.svg" alt="vuejs icon" width="50" height="50">
+  <img src="./docs/tailwind-ico.svg" alt="tailwind icon" width="50" height="50"/>
+  <img src="./docs/vite-ico.svg" alt="vite icon" width="50" height="50"/>
+</div>
+
+## Screenshots
+
+Some of the main views of the project.
+
+- Mobile views
+
+<div style="display:grid;grid-template-columns:1fr 1fr 1fr 1fr;gap:2rem">
+
+![screenshot](docs/index-mobile.png "index mobile view")
+
+![screenshot](docs/menu-mobile.png "menu mobile view")
+
+![screenshot](docs/cart-mobile.png "cart mobile view")
+
+![screenshot](docs/login-mobile.png "login mobile view")
+
+</div>
+
+- Mobile views
+
+<div style="display:grid;grid-template-columns:1fr 1fr;gap:2rem">
+
+![screenshot](docs/index-desktop.png "index desktop view")
+
+![screenshot](docs/menu-desktop.png "menu desktop view")
+
+![screenshot](docs/login-desktop.png "login desktop view")
+
+![screenshot](docs/payment-desktop.png "payment desktop view")
+
+</div>
+
+## Installation
+
+```bash
+# bash
+# Install the dependencies
+$ npm install
+
+# Start developtment server
+$ npm run dev
+
+# Build project and generate static files
+$ npm run build
+
+# View generated files
+$ npm run serve
+```
+For more details, you can check [Vite docs](https://vitejs.dev/guide/build.html)
+
+## References
+
+The documentation sites and other resources that help with the project.
+
+- [Pizza Hut Peru Official Website](https://www.pizzahut.com.pe/)
+- [Tailwind Docs](https://tailwindcss.com/docs/responsive-design)

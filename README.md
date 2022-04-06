@@ -49,7 +49,7 @@ Some of the main views of the project.
 
 </div>
 
-- Mobile views
+- Desktop views
 
 <div style="display:grid;grid-template-columns:1fr 1fr;gap:2rem">
 
